@@ -1,0 +1,66 @@
+ div#content{
+    background-color: #425664;
+    margin: 40px auto;
+    width: 700px; height: 700px;
+    position: relative;
+    border: #373a36 5px solid;
+    border-radius: 20px;
+}
+div#first_content{
+    position: absolute; top: 15rem; left: 270px;
+}
+h1{
+    font-size: 5rem;
+    text-align: center;
+    color: #f6f4f2;
+    text-shadow: 5px 5px 5px gray;
+    font-weight: 900;
+}
+button{
+    position: absolute; bottom: 20px; right: 30px;
+    font-size: 1rem;
+    box-shadow: 5px 5px 6px gray;
+    color: #f6f4f2;
+    font-weight: 700;
+    background-color: #425689;
+}
+select{
+    color: #f6f4f2;
+    background-color: #425689;
+    position: absolute; bottom: 2rem; left: 2rem;
+    font-size: 1rem;
+    box-shadow: 3px 3px 6px #f6f4f2;
+}
+.first{
+    color: #f6f4f2;
+    display: block;
+    text-align: center;
+    margin: 5px auto;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.second{
+    color: #f6f4f2;
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.third{
+    color: #f6f4f2;
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+input:hover{
+    background-color: #c6ad8f;
+    border: #373a36 solid 3px;
+}
+select:hover{
+    background-color: #c6ad8f;
+    border: #373a36 solid 3px;
+}
+button:hover{
+    background-color: #c6ad8f;
+    border: #373a36 solid 3px;
+}
